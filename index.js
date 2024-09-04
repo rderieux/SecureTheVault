@@ -5,7 +5,8 @@ Finally use a html elements to display the final vault code
 */
 
 //Message for the user
-const userMessage = "You have received this message because you have been chosen to open an important vault. Here is the secret combination:"
+const userMessage =
+  "You have received this message because you have been chosen to open an important vault. Here is the secret combination:";
 
 //Addition operator variable
 const additionVar = 1 + 1 + 2 + 6;
@@ -23,7 +24,7 @@ const userMessageH1 = document.getElementById("userMessage");
 userMessageH1.textContent = userMessage;
 
 //Create a string for the vault code
-const vaultCode = `${additionVar} - ${subtractionVar} - ${multiplyVar}`
+const vaultCode = `${additionVar} - ${subtractionVar} - ${multiplyVar}`;
 
 //Select the html element for the vault code
 const vaultCodeDiv = document.getElementById("vaultCode");
